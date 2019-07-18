@@ -2,12 +2,12 @@
         position: relative;
         display:  inline-table;
         width: 40%;
-        height: 20%;
-        background: #fff;
-        box-shadow:0 4px 10px 0 rgba(17, 4, 63, 0.2),0 4px 20px 0 rgba(79, 19, 97, 0.19);
-        margin: 10px 10px 10px 20px;
+        height: 40%;
+        background:gray;;
+        box-shadow:0 7px 15px 0 rgba(17, 4, 63, 0.2),0 4px 20px 0 rgba(79, 19, 97, 0.19);
+        margin: 50px 50px 50px 50px;
         float:left;
-        border-radius: 15px;
+        border-radius: 4px;
          }
         
         .post:hover {
@@ -26,7 +26,7 @@
             width: 75%;           
             display: table-cell;
             text-align: left;
-            background-color: #E8E8E8;
+            background-color: #815B63;
             color: #000000;
             border-radius: 0 15px 15px 0;
             padding: 0 20px;
@@ -63,12 +63,16 @@
     position: relative;
     display: block;
     margin: 0 !important;
-    color: #fff;
-    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
-    background-size: 2000% 2000%;
-    -webkit-animation: Gradient 15s ease infinite;
-    -moz-animation: Gradient 15s ease infinite;
-    animation: Gradient 15s ease infinite;
+    background: url('back.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    margin: 0 !important;
+    background-size: 100% cover!important;
+    overflow:hidden;
+   
+              
     
     }
     .allPostsContainer {
@@ -126,7 +130,7 @@
         color: #000;
         font-family: 'Abel', sans-serif;
         width: 10%;
-        background-color: #E8E8E8;
+        background-color: #815B63;
         }
    
         .deletePost:hover,

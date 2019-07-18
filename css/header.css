@@ -17,7 +17,7 @@ input[type=text]:focus, input[type=password]:focus {
 
 /* Set a style for all buttons */
 button {
-    background-color: #4CAF50;
+    background-color:#69106F;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -35,12 +35,12 @@ input.topButtons {
  cursor: pointer;
  font-weight: 500;
  font-size: 90%;
- background: #0000ff;
+ background: green;
  color: #fff;
  float: right;                  
  
  margin: 10px 10px 0px 0px;
- font-family: Arial, Helvetica, sans-serif;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 input.topButtons:hover {
  color:#000;
@@ -58,6 +58,7 @@ input.topButtons:hover {
  .cancelbtn, .signinbtn, .signupbtn {
      float: left;
      width: 100%;
+     border-radius: 5px;
  }
  
  /* Add padding to container elements */
@@ -78,17 +79,19 @@ input.topButtons:hover {
      padding-top: 25px;
      opacity: 1;
      background-color: rgba(0,0,0,0.7);
+     border-radius: 5px;
  }
  
  
  .modal-content {
-     background-color: #fefefe;
+     background-color: black;
      margin: 5% auto 15% auto; 
-     border: 1px solid #fff;
+     border: 5px solid green;
      width: 30%; 
      opacity: 1;
      overflow: hidden;
      color: #000;
+     border-radius:5px;
      
      }
  
@@ -121,7 +124,7 @@ input.topButtons:hover {
      font-size: 35px;
      font-weight: bold;
      color: #818181;
-     font-family: 'Abel', sans-serif;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
      }
 
      .close_signIn:hover,
@@ -136,31 +139,32 @@ input.topButtons:hover {
      display: table;
  }
  .modal-content-sigup{
-     background-color: #fefefe;
+     background-color: black;
      margin: auto auto 5% auto;
-     border: 1px solid #fff;
-     width: 30%;
+     border: 5px solid green;;
+     width: 40%;
      opacity: 1;
      overflow: auto;
-     font-family: 'Abel', sans-serif;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
      font-size: 15px;
      padding: 0 20px 20px 20px;
-     color: #000;
+     color: white;
+     border-radius: 10px;
      }
  .label {
      letter-spacing: 0.5px;
-     font-family: 'Abel', sans-serif;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
      font-size: 16px;
      font-weight: 600;
  }
  .signUpForm {
      margin: 10px 10px 30px 20px;
      text-align: center;
-     font-family: Arial, Helvetica, sans-serif;
-     font-weight: bold;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
  }                            
  .signUp{
-     color: #0000ff;
+     color: GRAY;
      }
  /* Change styles for cancel button and signup button on extra small screens */
  @media screen and (max-width: 300px) {
@@ -170,9 +174,9 @@ input.topButtons:hover {
  }
 
 .logo-title {
-font-family: 'Satisfy', cursive;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 font-size: 50px;
-color: #112fb4;
+color: #69106F;
 margin: auto;
 text-decoration: none;
 margin: 10px 10px 0px 10px;    
@@ -182,7 +186,7 @@ h1{
     font-family: 'Abel', sans-serif;
 }
 .middleText{
-    font-family: 'Marck Script', cursive;
+    font-family:cursive;
     margin-top: 0;
     margin: 0 0 0px 10px;
     }
